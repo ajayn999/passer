@@ -1,0 +1,234 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+
+}
+
+
+/* userList Start from here */
+.userlist-outer-container{
+  padding: 0px 50px;
+}
+.userlist-main-container{
+  /* border: 1px solid; */
+  height: 100vh;
+  border-radius: 40px;
+padding: 40px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.userlist-heading{
+  font-size: 30px;
+  text-align: center;
+  /* color:  #77c3ec; */
+}
+.userlist-main-container a button{
+  border-radius: 10px;
+  padding: 15px;
+  border: none;
+  background-color:#77c3ec ;
+  color: white;
+  border: 1px solid #77c3ec;
+}
+.userlist-main-container a button:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1px solid;
+}
+.userlist-ul-container{
+  /* border: 1px solid; */
+  padding: 20px;
+}
+.userlist-ul-container li a{
+text-decoration: none;
+font-size: 20px;
+color: #164157 ;
+
+}
+
+.userlist-ul-container li a:hover{
+  color: #041b27 ;
+  
+}
+/* userList end from here  */
+
+
+
+/* Create user start from here */
+.create-main-container{
+  height: 100vh;
+  border-radius: 40px;
+padding: 40px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.create-outer-container{
+  padding: 0px 50px;
+}
+
+.create-heading{
+  font-size: 30px;
+  text-align: center;
+}
+.create-form{
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20px;
+}
+
+.create-button button{
+  border-radius: 10px;
+  padding: 15px;
+  border: none;
+  background-color:#77c3ec ;
+  color: white;
+  border: 1px solid #77c3ec;
+}
+.create-button a{
+  border-radius: 10px;
+  padding: 15px;
+  border: none;
+  background-color:#77c3ec ;
+  color: white;
+  border: 1px solid #77c3ec;
+  text-decoration: none;
+}
+.create-button button:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1px solid;
+}
+.create-button a:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1px solid;
+}
+.create-button-container{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+/* Create user end from here */
+
+
+
+/* userDetails start from here  */
+
+.userdetails-main-container{
+  height: 100vh;
+  border-radius: 40px;
+padding: 40px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.userdetails-outer-container{
+  padding: 0px 50px;
+}
+
+.userdetails-heading{
+  font-size: 30px;
+  text-align: center;
+}
+.userdetails-details{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.userdetails-details div{
+  padding: 15px;
+}
+.userdetails-details a{
+  border-radius: 10px;
+  padding: 15px;
+  border: none;
+  background-color:#77c3ec ;
+  color: white;
+  border: 1px solid #77c3ec;
+  text-decoration: none;
+
+}
+.userdetails-details a:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1px solid;
+}
+.userdetails-button-container{
+  display: flex;
+
+}
+/* userDetails end from here  */
+
+
+/* edit start from here  */
+.edit-main-container{
+  height: 100vh;
+  border-radius: 40px;
+padding: 40px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.edit-outer-container{
+  padding: 0px 50px;
+}
+
+
+.edit-heading{
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.edit-form{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20px;
+}
+.edit-button-container{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+}
+.edit-button button{
+  border-radius: 10px;
+  padding: 15px;
+  border: none;
+  background-color:#77c3ec ;
+  color: white;
+  border: 1px solid #77c3ec;
+}
+.edit-button a{
+  border-radius: 10px;
+  padding: 15px;
+  border: none;
+  background-color:#77c3ec ;
+  color: white;
+  border: 1px solid #77c3ec;
+  text-decoration: none;
+}
+.edit-button button:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1px solid;
+}
+.edit-button a:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1px solid;
+}
+
+
+/* edit end from here  */
